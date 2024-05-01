@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.left {
+    position: fixed;
+    height: 100vh;
+    width: 30vw;
+    background: linear-gradient(#ccffde,#fff8de);
+}
+
+.colorsdiv, .sizesdiv, .offersdiv, .rangediv{
+    margin-top: 20px;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.colorsdiv h3{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.sizesdiv h3{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.colorsbutton label{
+    margin-right: 40px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+.sizebutton {
+    margin-right: 90px;
+    line-height: 25px;
+}
+.offerbutton  label,
+.rangebutton label{
+    margin-right: 50px;
+    
+}
+.offersdiv h3{
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.rangediv h3{
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.filterbutton{
+    margin-top: 25px;
+    margin-left: 80px;
+    height: 2rem;
+    width: 5rem;
+    font-size: 15px;
+    font-family: cursive;
+    border: none;
+    background-color: darkcyan;
+    border-radius:9px;
+}
+.product h2{
+    position: absolute;
+    top: 20px;
+    left: 420px;
+}
+.product{
+    margin-left: 210px;
+    background-color:whitesmoke;
+    margin-bottom:20px;
+    width: 74%;
+    line-height: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    font-size: 17px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.sidebar{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+    margin-right: 10px;
+}
